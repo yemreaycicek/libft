@@ -6,7 +6,7 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 20:17:36 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/01 12:21:28 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/01 12:24:20 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,6 @@
 
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
+int	ft_isalnum(int c);
 
 #endif
