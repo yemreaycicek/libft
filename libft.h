@@ -6,10 +6,13 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 20:17:36 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/04/30 20:17:55 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/01 12:19:10 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
+
+int	ft_isalpha(int c);
+
 #endif
