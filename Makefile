@@ -6,7 +6,7 @@ CFLAGS  = -Wall -Wextra -Werror
 AR      = ar rcs
 RM      = rm -f
 
-SRC     =
+SRC     = ft_isalpha.c
 OBJ     = $(SRC:.c=.o)
 
 all: $(NAME)
