@@ -6,7 +6,7 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 14:04:12 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/08 14:07:47 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/08 14:23:50 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[sub_len] = '\0';
 	return (substr);
 }
-	
