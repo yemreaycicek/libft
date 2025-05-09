@@ -38,7 +38,8 @@ SRC     = ft_isalpha.c   \
           ft_striteri.c  \
           ft_putchar.c   \
           ft_putstr_fd.c \
-          ft_putendl.c
+          ft_putendl.c   \
+          ft_putnbr_fd.c
 OBJ     = $(SRC:.c=.o)
 
 all: $(NAME)
