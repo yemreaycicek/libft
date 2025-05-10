@@ -6,7 +6,7 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 20:17:36 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/09 15:39:14 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/10 15:14:36 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,12 @@
 
 # include <stdlib.h>
 # include <unistd.h>
+
+typedef struct s_list
+{
+	void		*content;
+	struct s_list	next;
+}	t_list;
 
 int	ft_isalpha(int c);
 int	ft_isdigit(int c);
