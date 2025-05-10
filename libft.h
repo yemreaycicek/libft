@@ -6,7 +6,7 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 20:17:36 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/10 15:14:36 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/10 15:25:09 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 typedef struct s_list
 {
 	void		*content;
-	struct s_list	next;
+	struct s_list	*next;
 }	t_list;
 
 int	ft_isalpha(int c);
