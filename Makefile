@@ -43,7 +43,8 @@ SRC     = ft_isalpha.c   \
 OBJ     = $(SRC:.c=.o)
 
 BNS     = ft_lstnew_bonus.c \
-          ft_lstadd_front_bonus.c
+          ft_lstadd_front_bonus.c \
+          ft_lstsize_bonus.c
 BNS_OBJ = $(BNS:.c=.o)
 
 all: $(NAME)
