@@ -6,7 +6,7 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/30 20:17:36 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/11 00:29:47 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/11 00:33:57 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,5 +61,6 @@ t_list	*ft_lstnew(void *content);
 void	ft_lstadd_front(t_list **lst, t_list *new);
 int	ft_lstsize(t_list *lst);
 t_list	*ft_lstlast(t_list *lst);
+void	ft_lstadd_back(t_list **lst, t_list *new);
 
 #endif
