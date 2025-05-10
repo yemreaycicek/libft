@@ -6,12 +6,11 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/01 15:00:24 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/01 15:04:48 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/11 02:27:09 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <string.h>
 
 void	*ft_memmove(void *dest, const void *src, size_t n)
 {
