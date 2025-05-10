@@ -42,7 +42,7 @@ SRC     = ft_isalpha.c   \
           ft_putnbr_fd.c
 OBJ     = $(SRC:.c=.o)
 
-BNS     =
+BNS     = ft_lstnew_bonus.c
 BNS_OBJ = $(BNS:.c=.o)
 
 all: $(NAME)
