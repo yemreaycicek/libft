@@ -6,11 +6,11 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 21:57:54 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/11 01:39:48 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/11 02:28:43 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
 static size_t	ft_word_count(char const *s, char c)
 {
