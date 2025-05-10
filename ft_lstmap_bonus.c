@@ -6,13 +6,13 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/11 00:49:18 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/11 00:54:59 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/05/11 01:55:55 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void*), void (*del)(void*))
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_list;
 	t_list	*new_node;
