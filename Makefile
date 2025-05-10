@@ -42,13 +42,19 @@ SRC     = ft_isalpha.c   \
           ft_putnbr_fd.c
 OBJ     = $(SRC:.c=.o)
 
+BNS     =
+BNS_OBJ = $(BNS:.c=.o)
+
 all: $(NAME)
 
 $(NAME): $(OBJ)
 	$(AR) $(NAME) $(OBJ)
 
+bonus: $(BNS_OBJ)
+	$(AR) $(NAME) $(BNS_OBJ)
+
 clean:
-	$(RM) $(OBJ)
+	$(RM) $(OBJ) $(BNS_OBJ)
 
 fclean: clean
 	$(RM) $(NAME)
