@@ -6,7 +6,7 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/09 12:22:43 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/11 01:53:39 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/11/06 02:05:23 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	char	*result;
-	size_t	len;
+	char			*result;
+	size_t			len;
 	unsigned int	i;
 
 	if (!s || !f)

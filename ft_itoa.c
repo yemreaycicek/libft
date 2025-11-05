@@ -6,7 +6,7 @@
 /*   By: yaycicek <yaycicek@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:58:49 by yaycicek          #+#    #+#             */
-/*   Updated: 2025/05/11 01:37:58 by yaycicek         ###   ########.fr       */
+/*   Updated: 2025/11/06 02:05:07 by yaycicek         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static int	ft_numlen(int n)
 char	*ft_itoa(int n)
 {
 	char	*str;
-	int	len;
+	int		len;
 	long	nb;
 
 	nb = n;
